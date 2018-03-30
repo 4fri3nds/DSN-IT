@@ -1,0 +1,14 @@
+.cope_text {
+  overflow: hidden;
+  line-height: 20px;
+}
+
+.cope_text p {
+  margin: 0 0 0 0;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

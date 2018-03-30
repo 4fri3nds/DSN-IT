@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Eng-for-children</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+    crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="header navbar justify-content-between border-bottom row">
+    <div class="header-logo col-3 d-flex justify-content-center">
+      <a class="header-logo-link navbar-brand" href="#">
+        <span class="vis">Site logo</span>
+        <span class="hidden">SL</span>
+      </a>
+    </div>
+    <div class="header-search col-5 d-flex">
+      <div class="header-search-dropdown btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="header-search-dropdown-button btn dropdown-toggle" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-map-marker-alt"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+          <a class="dropdown-item" href="#">Dropdown link</a>
+          <a class="dropdown-item" href="#">Dropdown link</a>
+        </div>
+      </div>
+      <input class="header-search-field form-control" type="text" placeholder="">
+      <button class="header-search-input-button btn btn-outline-secondary" type="button">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+    <div class="header-admin_panel col-3 d-flex justify-content-end">
+      <button type="button" class="btn header-admin_panel-button">
+        <i class="fas fa-bell"></i>
+        <span class="header-admin_panel-badge badge">4</span>
+      </button>
+      <a class="header-admin_panel-user" href="#">
+        <img src="img/user.png" alt="#" class="rounded-circle">
+      </a>
+    </div>
+  </nav>
+  <div class="main-img">
+    <img src="img/main-img.png" alt="">
+  </div>
+  <section class="main-content">
+    <div class="container">
+      <div class="main-content-info row">
+        <div class="main-content-eng-left col-lg-9 col-md-9 col-sm-7 col-xs-12">
+          <div class="main-content-eng-left-title d-flex">
+            <div class="main-content-eng-left-title-icon">
+              <i class="fab fa-envira"></i>
+            </div>
+            <div class="main-content-title-text">
+              <div class="big">Английский для детей</div>
+              <div class="small">Лучше раньше, чем никогда</div>
+            </div>
+          </div>
+          <div class="main-content-eng-collapse">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <button class="main-content-btn-collapse btn btn-link d-flex align-justify" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    <i class="fas fa-graduation-cap"></i>
+                    <p>
+                      В каком возрасте начать обучение?
+                    </p>
+                    <i class="fas fa-angle-down"></i>
+                  </button>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    До пяти лет дети обладают лингвистической гениальностью. Они способны запоминать 20-30 новых слов в день. Простая арифметика
+                    дает впечатляющий результат – 7-10 тысяч слов в год. Да мы и в родном русском столько не используем,
+                    а что говорить об иностранном. Способности к языкам, безусловно, либо есть, либо нет.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <button class="main-content-btn-collapse btn btn-link collapsed d-flex" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <p>
+                      В каком возрасте начать обучение?
+                    </p>
+                    <i class="fas fa-angle-down"></i>
+                  </button>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    До пяти лет дети обладают лингвистической гениальностью. Они способны запоминать 20-30 новых слов в день. Простая арифметика
+                    дает впечатляющий результат – 7-10 тысяч слов в год. Да мы и в родном русском столько не используем,
+                    а что говорить об иностранном. Способности к языкам, безусловно, либо есть, либо нет.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-content-courses-right col-lg-3 col-md-3 col-sm-5 col-xs-8">
+          <div class="main-content-eng-right-title">
+            <div class="main-content-title-text">
+              <div class="big">Курсы</div>
+              <div class="small">Английский язык</div>
+            </div>
+          </div>
+          <div class="main-content-card right-card">
+            <div class="card">
+              <div class="card-icon">
+                <i class="far fa-star"></i>
+              </div>
+              <div class="card-img-logo">
+                <img src="./img/logo.png" alt="logo">
+              </div>
+              <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+              <div class="card-body">
+                <div class="custom-control custom-checkbox">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                  <label class="custom-control-label" for="customCheck1">Школа
+                    <br>«Let's Speak»</label>
+                </div>
+                <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                  что мы Репетиторы носители языка главное наше преимущество что мы
+                </p>
+                <hr>
+                <a href="#" class="card-button">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>Украина
+                    <br>Киев</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="main-content-card">
+              <div class="card">
+                <div class="card-icon">
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="card-img-logo">
+                  <img src="./img/logo.png" alt="logo">
+                </div>
+                <img class="card-img-top" src="./img/meeting.png" alt="Card image cap">
+                <div class="card-body">
+                  <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1" name="check">
+                    <label class="custom-control-label" for="customCheck1">Школа
+                      <br>«Let's Speak»</label>
+                  </div>
+                  <p class="card-text cope_text line-clamp">Репетиторы носители языка главное наше преимущество что мы Репетиторы носители языка главное наше преимущество
+                    что мы Репетиторы носители языка главное наше преимущество что мы
+                  </p>
+                  <hr>
+                  <a href="#" class="card-button">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Украина
+                      <br>Киев</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <i class="fas fa-angle-left"></i>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
